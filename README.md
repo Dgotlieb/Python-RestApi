@@ -1,5 +1,5 @@
 # Python-RestApi
-Python REST Api quick start using urlib and json 
+Python REST Api quick start using urlib, requests and json 
 
 ---------------------------------------------------
 ## HTTP bin
