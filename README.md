@@ -1,9 +1,7 @@
 # Python-RestApi
-Python REST Api quick start using urlib, requests and json 
+Python REST Api quick start using requests 
 
 ---------------------------------------------------
-## HTTP bin
-https://httpbin.org/get
 
 ## Currency API
-https://free.currencyconverterapi.com
+https://exchangeratesapi.io/
