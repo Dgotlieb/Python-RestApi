@@ -1,7 +1,13 @@
 import requests
 
-res =  requests.get("https://api.exchangeratesapi.io/latest?base=USD")
-data = res.json()
-results = data['rates']
-currency_value = results['ILS']
-print("Result is: ", currency_value)
+url = "https://api.apilayer.com/exchangerates_data/convert?to=ILS&from=USD&amount=1"
+
+payload = {}
+headers= {
+  "apikey": "XXXXXXXXXXXX"
+}
+
+response = requests.request("GET", url, headers=headers, data = payload)
+data = response.json()
+results = data['result']
+print(results)
