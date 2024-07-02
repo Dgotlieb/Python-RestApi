@@ -1,6 +1,5 @@
 import pymysql
 
-
 def add_user(user_id, username):
     schema_name = 'aaa'
     # Establishing a connection to DB
