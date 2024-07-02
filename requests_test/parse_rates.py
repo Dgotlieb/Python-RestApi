@@ -1,6 +1,6 @@
 import requests
 
-url = "https://api.apilayer.com/exchangerates_data/convert?to=ILS&from=USD&amount=1"
+url = "https://api.apilayer.com/exchangerates_data/convert?to=EUR&from=USD&amount=1"
 
 payload = {}
 headers= {
