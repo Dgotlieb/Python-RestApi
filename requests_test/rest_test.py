@@ -4,6 +4,7 @@ app = Flask(__name__)
 
 # local users storage
 users = {}
+
 # supported methods
 @app.route('/data/<user_id>', methods=['GET', 'POST', 'DELETE', 'PUT'])
 def user(user_id):
